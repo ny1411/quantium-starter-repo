@@ -17,7 +17,7 @@ df_filtered['price'] = df_filtered['price'].str.replace('$', '').astype(float)  
 df_filtered['sales'] = df_filtered['quantity']*df_filtered['price']
 
 # 4. save to csv
-df_final = df_filtered[['sales', 'date', 'product']]
+df_final = df_filtered[['sales', 'date', 'region','product']]
 
 output_path = 'pink_morsel_sales.csv'
 df_final.to_csv(output_path, index=False)
