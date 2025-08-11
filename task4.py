@@ -22,7 +22,7 @@ COLORS = {
     'background':'#111111',
     'text': "#eaeaea",
     'chart_line': '#2631ca',
-    'chart_grid': "#aeb4ff"
+    'chart_grid': "#202020"
 }
 
 #app layout
